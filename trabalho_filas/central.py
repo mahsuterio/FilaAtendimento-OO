@@ -1,0 +1,2 @@
+class CentralAtendimento: 
+    pass

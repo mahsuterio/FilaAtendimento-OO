@@ -1,0 +1,127 @@
+
+--- CONFIGURAÇÕES ---
+
+Modo: aleatorio
+Atendentes: 3
+Política: prioridade
+Tempo: 40
+Probabilidade de chegada: 0.6
+Tempo mínimo: 1
+Tempo máximo: 5
+Prioritários: 0.3
+Seed: 42
+
+--- EVENTOS DA SIMULAÇÃO ---
+
+[000] Simulação iniciada
+[001] Cliente 1 chegou
+[001] Cliente 1 entrou na fila
+[001] Atendente 1 iniciou atendimento do Cliente 1 (esperou 0 unidades)
+[002] Cliente 2 chegou
+[002] Cliente 2 entrou na fila
+[002] Atendente 2 iniciou atendimento do Cliente 2 (esperou 0 unidades)
+[003] Cliente 3 chegou
+[003] Cliente 3 entrou na fila
+[003] Cliente 1 terminou atendimento
+[003] Atendente 1 iniciou atendimento do Cliente 3 (esperou 0 unidades)
+[004] Cliente 4 chegou
+[004] Cliente 4 entrou na fila
+[004] Cliente 3 terminou atendimento
+[004] Atendente 1 iniciou atendimento do Cliente 4 (esperou 0 unidades)
+[005] Cliente 5 chegou
+[005] Cliente 5 entrou na fila
+[005] Atendente 3 iniciou atendimento do Cliente 5 (esperou 0 unidades)
+[006] Cliente 6 chegou
+[006] Cliente 6 entrou na fila
+[007] Cliente 2 terminou atendimento
+[007] Atendente 2 iniciou atendimento do Cliente 6 (esperou 1 unidades)
+[008] Cliente 7 chegou
+[008] Cliente 7 entrou na fila
+[009] Cliente 8 chegou
+[009] Cliente 8 entrou na fila
+[009] Cliente 4 terminou atendimento
+[009] Atendente 1 iniciou atendimento do Cliente 8 (esperou 0 unidades)
+[010] Cliente 9 chegou
+[010] Cliente 9 entrou na fila
+[010] Cliente 6 terminou atendimento
+[010] Cliente 5 terminou atendimento
+[010] Atendente 2 iniciou atendimento do Cliente 7 (esperou 2 unidades)
+[010] Atendente 3 iniciou atendimento do Cliente 9 (esperou 0 unidades)
+[012] Cliente 8 terminou atendimento
+[013] Cliente 9 terminou atendimento
+[014] Cliente 7 terminou atendimento
+[015] Cliente 10 chegou
+[015] Cliente 10 entrou na fila
+[015] Atendente 1 iniciou atendimento do Cliente 10 (esperou 0 unidades)
+[016] Cliente 11 chegou
+[016] Cliente 11 entrou na fila
+[016] Atendente 2 iniciou atendimento do Cliente 11 (esperou 0 unidades)
+[018] Cliente 12 chegou
+[018] Cliente 12 entrou na fila
+[018] Atendente 3 iniciou atendimento do Cliente 12 (esperou 0 unidades)
+[019] Cliente 13 chegou
+[019] Cliente 13 entrou na fila
+[019] Cliente 10 terminou atendimento
+[019] Cliente 12 terminou atendimento
+[019] Atendente 1 iniciou atendimento do Cliente 13 (esperou 0 unidades)
+[021] Cliente 11 terminou atendimento
+[022] Cliente 13 terminou atendimento
+[023] Cliente 14 chegou
+[023] Cliente 14 entrou na fila
+[023] Atendente 1 iniciou atendimento do Cliente 14 (esperou 0 unidades)
+[024] Cliente 15 chegou
+[024] Cliente 15 entrou na fila
+[024] Atendente 2 iniciou atendimento do Cliente 15 (esperou 0 unidades)
+[026] Cliente 14 terminou atendimento
+[027] Cliente 16 chegou
+[027] Cliente 16 entrou na fila
+[027] Cliente 15 terminou atendimento
+[027] Atendente 1 iniciou atendimento do Cliente 16 (esperou 0 unidades)
+[029] Cliente 17 chegou
+[029] Cliente 17 entrou na fila
+[029] Atendente 2 iniciou atendimento do Cliente 17 (esperou 0 unidades)
+[030] Cliente 18 chegou
+[030] Cliente 18 entrou na fila
+[030] Atendente 3 iniciou atendimento do Cliente 18 (esperou 0 unidades)
+[031] Cliente 19 chegou
+[031] Cliente 19 entrou na fila
+[031] Cliente 18 terminou atendimento
+[031] Atendente 3 iniciou atendimento do Cliente 19 (esperou 0 unidades)
+[032] Cliente 20 chegou
+[032] Cliente 20 entrou na fila
+[032] Cliente 16 terminou atendimento
+[032] Atendente 1 iniciou atendimento do Cliente 20 (esperou 0 unidades)
+[034] Cliente 21 chegou
+[034] Cliente 21 entrou na fila
+[034] Cliente 17 terminou atendimento
+[034] Cliente 19 terminou atendimento
+[034] Atendente 2 iniciou atendimento do Cliente 21 (esperou 0 unidades)
+[037] Cliente 22 chegou
+[037] Cliente 22 entrou na fila
+[037] Cliente 20 terminou atendimento
+[037] Atendente 1 iniciou atendimento do Cliente 22 (esperou 0 unidades)
+[038] Cliente 23 chegou
+[038] Cliente 23 entrou na fila
+[038] Cliente 21 terminou atendimento
+[038] Atendente 2 iniciou atendimento do Cliente 23 (esperou 0 unidades)
+
+--- RESULTADOS DA SIMULAÇÃO ---
+
+Tempo simulado: 40
+Clientes que chegaram: 23
+Clientes atendidos: 21
+Clientes aguardando: 0
+Clientes em atendimento: 2
+Espera média: 0.13
+Espera mínima: 0
+Espera máxima: 2
+Tempo médio no sistema: 3.62
+Tamanho médio da fila: 0.07
+Tamanho máximo da fila: 1
+
+Utilização dos atendentes:
+Atendente 1: 82.50%
+Atendente 2: 75.00%
+Atendente 3: 32.50%
+
+Vazão: 0.53 clientes/unidade de tempo

@@ -1,0 +1,71 @@
+
+--- CONFIGURAÇÕES ---
+
+Modo: arquivo
+Atendentes: 2
+Política: FIFO
+Entrada: dados\cenario_fifo_10.csv
+
+--- EVENTOS DA SIMULAÇÃO ---
+
+[000] Simulação iniciada
+[000] Cliente 1 chegou
+[000] Cliente 1 entrou na fila
+[000] Cliente 2 chegou
+[000] Cliente 2 entrou na fila
+[000] Atendente 1 iniciou atendimento do Cliente 1 (esperou 0 unidades)
+[000] Atendente 2 iniciou atendimento do Cliente 2 (esperou 0 unidades)
+[001] Cliente 3 chegou
+[001] Cliente 3 entrou na fila
+[002] Cliente 4 chegou
+[002] Cliente 4 entrou na fila
+[002] Cliente 5 chegou
+[002] Cliente 5 entrou na fila
+[002] Cliente 2 terminou atendimento
+[002] Atendente 2 iniciou atendimento do Cliente 3 (esperou 1 unidades)
+[003] Cliente 6 chegou
+[003] Cliente 6 entrou na fila
+[003] Cliente 1 terminou atendimento
+[003] Atendente 1 iniciou atendimento do Cliente 4 (esperou 1 unidades)
+[004] Cliente 7 chegou
+[004] Cliente 7 entrou na fila
+[005] Cliente 8 chegou
+[005] Cliente 8 entrou na fila
+[005] Cliente 9 chegou
+[005] Cliente 9 entrou na fila
+[005] Cliente 4 terminou atendimento
+[005] Atendente 1 iniciou atendimento do Cliente 5 (esperou 3 unidades)
+[006] Cliente 10 chegou
+[006] Cliente 10 entrou na fila
+[006] Cliente 3 terminou atendimento
+[006] Atendente 2 iniciou atendimento do Cliente 6 (esperou 3 unidades)
+[007] Cliente 6 terminou atendimento
+[007] Atendente 2 iniciou atendimento do Cliente 7 (esperou 3 unidades)
+[010] Cliente 5 terminou atendimento
+[010] Cliente 7 terminou atendimento
+[010] Atendente 1 iniciou atendimento do Cliente 8 (esperou 5 unidades)
+[010] Atendente 2 iniciou atendimento do Cliente 9 (esperou 5 unidades)
+[012] Cliente 8 terminou atendimento
+[012] Atendente 1 iniciou atendimento do Cliente 10 (esperou 6 unidades)
+[014] Cliente 10 terminou atendimento
+[014] Cliente 9 terminou atendimento
+
+--- RESULTADOS DA SIMULAÇÃO ---
+
+Tempo simulado: 14
+Clientes que chegaram: 10
+Clientes atendidos: 10
+Clientes aguardando: 0
+Clientes em atendimento: 0
+Espera média: 2.70
+Espera mínima: 0
+Espera máxima: 6
+Tempo médio no sistema: 5.50
+Tamanho médio da fila: 1.80
+Tamanho máximo da fila: 4
+
+Utilização dos atendentes:
+Atendente 1: 100.00%
+Atendente 2: 100.00%
+
+Vazão: 0.71 clientes/unidade de tempo

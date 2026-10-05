@@ -1,0 +1,18 @@
+COMANDOS PARA EXECUTAR OS CENÁRIOS ALEATÓRIOS
+
+1) CENÁRIO ALEATÓRIO FIFO - 20 UNIDADES DE TEMPO - 2 ATENDENTES
+
+python3 main.py --modo aleatorio --entrada " " --tempo 20 --atendentes 2 --prob-chegada 0.50 --tempo-min 1 --tempo-max 4 --prioritarios 0 --politica FIFO --seed 42 --verbose
+
+2) CENÁRIO ALEATÓRIO PRIORIDADE - 40 UNIDADES DE TEMPO - 3 ATENDENTES
+
+python3 main.py --modo aleatorio --entrada " " --tempo 40 --atendentes 3 --prob-chegada 0.60 --tempo-min 1 --tempo-max 5 --prioritarios 0.30 --politica prioridade --seed 42 --verbose
+
+3) CENÁRIO ALEATÓRIO PRIORIDADE - 60 UNIDADES DE TEMPO - 4 ATENDENTES
+
+python3 main.py --modo aleatorio --entrada " " --tempo 60 --atendentes 4 --prob-chegada 0.70 --tempo-min 2 --tempo-max 6 --prioritarios 0.40 --politica prioridade --seed 42 --verbose
+
+OBSERVAÇÕES E MODO DE USO:
+A mesma seed (42) foi utilizada para tornar os experimentos reproduzíveis.
+Cole o comando no terminal, um de cada vez, para excutar a simulação desejada.
+Após a simulação, pode conferir o relatóio dos resultados em relatorios/[politica]_[seed]_[tempo]_[quantidade_atendentes].txt.

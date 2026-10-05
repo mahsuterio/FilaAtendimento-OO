@@ -1,0 +1,18 @@
+COMANDOS PARA EXECUTAR OS CENÁRIOS CSV
+
+1) CENÁRIO FIFO - 10 CLIENTES - 2 ATENDENTES
+
+python3 main.py --modo arquivo --entrada "dados\cenario_fifo_10.csv" --tempo 0 --atendentes 2 --prob-chegada 0 --tempo-min 0 --tempo-max 0 --prioritarios 0 --politica FIFO --seed 0 --verbose
+
+2) CENÁRIO PRIORIDADE - 20 CLIENTES - 3 ATENDENTES
+
+python3 main.py --modo arquivo --entrada "dados\cenario_prioridade_20.csv" --tempo 0 --atendentes 3 --prob-chegada 0 --tempo-min 0 --tempo-max 0 --prioritarios 0 --politica prioridade --seed 0 --verbose
+
+3) CENÁRIO PRIORIDADE - 30 CLIENTES - 4 ATENDENTES
+
+python3 main.py --modo arquivo --entrada "dados\cenario_prioridade_30.csv" --tempo 0 --atendentes 4 --prob-chegada 0 --tempo-min 0 --tempo-max 0 --prioritarios 0 --politica prioridade --seed 0 --verbose
+
+MODO DE USO:
+Copie os três arquivos CSV para a pasta dados/ do projeto antes de executar os comandos.
+Cole o comando no terminal, um de cada vez, para excutar a simulação desejada.
+Após a simulação, pode conferir o relatóio dos resultados em relatorios/[nome_csv]_[quantidade_clientes]_[politica]_[quantidade_atendentes].txt.

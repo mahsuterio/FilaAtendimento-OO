@@ -1,0 +1,7 @@
+id,tipo,chegada,duracao
+1,comum,2,4
+2,prioritario,2,2
+3,comum,3,3
+4,comum,4,7
+5,prioritario,5,8
+6,comum,5,2

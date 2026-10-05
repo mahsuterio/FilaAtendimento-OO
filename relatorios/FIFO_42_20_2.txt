@@ -1,0 +1,71 @@
+
+--- CONFIGURAÇÕES ---
+
+Modo: aleatorio
+Atendentes: 2
+Política: FIFO
+Tempo: 20
+Probabilidade de chegada: 0.5
+Tempo mínimo: 1
+Tempo máximo: 4
+Prioritários: 0.0
+Seed: 42
+
+--- EVENTOS DA SIMULAÇÃO ---
+
+[000] Simulação iniciada
+[001] Cliente 1 chegou
+[001] Cliente 1 entrou na fila
+[001] Atendente 1 iniciou atendimento do Cliente 1 (esperou 0 unidades)
+[002] Cliente 2 chegou
+[002] Cliente 2 entrou na fila
+[002] Atendente 2 iniciou atendimento do Cliente 2 (esperou 0 unidades)
+[003] Cliente 1 terminou atendimento
+[003] Cliente 2 terminou atendimento
+[004] Cliente 3 chegou
+[004] Cliente 3 entrou na fila
+[004] Atendente 1 iniciou atendimento do Cliente 3 (esperou 0 unidades)
+[006] Cliente 4 chegou
+[006] Cliente 4 entrou na fila
+[006] Cliente 3 terminou atendimento
+[006] Atendente 1 iniciou atendimento do Cliente 4 (esperou 0 unidades)
+[007] Cliente 5 chegou
+[007] Cliente 5 entrou na fila
+[007] Atendente 2 iniciou atendimento do Cliente 5 (esperou 0 unidades)
+[008] Cliente 5 terminou atendimento
+[009] Cliente 6 chegou
+[009] Cliente 6 entrou na fila
+[009] Atendente 2 iniciou atendimento do Cliente 6 (esperou 0 unidades)
+[010] Cliente 7 chegou
+[010] Cliente 7 entrou na fila
+[010] Cliente 4 terminou atendimento
+[010] Atendente 1 iniciou atendimento do Cliente 7 (esperou 0 unidades)
+[011] Cliente 8 chegou
+[011] Cliente 8 entrou na fila
+[012] Cliente 6 terminou atendimento
+[012] Atendente 2 iniciou atendimento do Cliente 8 (esperou 1 unidades)
+[013] Cliente 7 terminou atendimento
+[015] Cliente 8 terminou atendimento
+[018] Cliente 9 chegou
+[018] Cliente 9 entrou na fila
+[018] Atendente 1 iniciou atendimento do Cliente 9 (esperou 0 unidades)
+
+--- RESULTADOS DA SIMULAÇÃO ---
+
+Tempo simulado: 20
+Clientes que chegaram: 9
+Clientes atendidos: 8
+Clientes aguardando: 0
+Clientes em atendimento: 1
+Espera média: 0.11
+Espera mínima: 0
+Espera máxima: 1
+Tempo médio no sistema: 2.50
+Tamanho médio da fila: 0.05
+Tamanho máximo da fila: 1
+
+Utilização dos atendentes:
+Atendente 1: 60.00%
+Atendente 2: 40.00%
+
+Vazão: 0.40 clientes/unidade de tempo

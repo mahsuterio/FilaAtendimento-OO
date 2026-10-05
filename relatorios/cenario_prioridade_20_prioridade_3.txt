@@ -1,0 +1,112 @@
+
+--- CONFIGURAÇÕES ---
+
+Modo: arquivo
+Atendentes: 3
+Política: prioridade
+Entrada: dados\cenario_prioridade_20.csv
+
+--- EVENTOS DA SIMULAÇÃO ---
+
+[000] Simulação iniciada
+[000] Cliente 1 chegou
+[000] Cliente 1 entrou na fila
+[000] Cliente 2 chegou
+[000] Cliente 2 entrou na fila
+[000] Atendente 1 iniciou atendimento do Cliente 2 (esperou 0 unidades)
+[000] Atendente 2 iniciou atendimento do Cliente 1 (esperou 0 unidades)
+[001] Cliente 3 chegou
+[001] Cliente 3 entrou na fila
+[001] Cliente 4 chegou
+[001] Cliente 4 entrou na fila
+[001] Atendente 3 iniciou atendimento do Cliente 4 (esperou 0 unidades)
+[002] Cliente 5 chegou
+[002] Cliente 5 entrou na fila
+[002] Cliente 6 chegou
+[002] Cliente 6 entrou na fila
+[002] Cliente 2 terminou atendimento
+[002] Cliente 4 terminou atendimento
+[002] Atendente 1 iniciou atendimento do Cliente 3 (esperou 1 unidades)
+[002] Atendente 3 iniciou atendimento do Cliente 5 (esperou 0 unidades)
+[003] Cliente 7 chegou
+[003] Cliente 7 entrou na fila
+[003] Cliente 8 chegou
+[003] Cliente 8 entrou na fila
+[003] Cliente 1 terminou atendimento
+[003] Atendente 2 iniciou atendimento do Cliente 7 (esperou 0 unidades)
+[004] Cliente 9 chegou
+[004] Cliente 9 entrou na fila
+[004] Cliente 10 chegou
+[004] Cliente 10 entrou na fila
+[004] Cliente 5 terminou atendimento
+[004] Atendente 3 iniciou atendimento do Cliente 6 (esperou 2 unidades)
+[005] Cliente 11 chegou
+[005] Cliente 11 entrou na fila
+[005] Cliente 12 chegou
+[005] Cliente 12 entrou na fila
+[006] Cliente 13 chegou
+[006] Cliente 13 entrou na fila
+[006] Cliente 14 chegou
+[006] Cliente 14 entrou na fila
+[006] Cliente 3 terminou atendimento
+[006] Cliente 7 terminou atendimento
+[006] Atendente 1 iniciou atendimento do Cliente 9 (esperou 2 unidades)
+[006] Atendente 2 iniciou atendimento do Cliente 8 (esperou 3 unidades)
+[007] Cliente 15 chegou
+[007] Cliente 15 entrou na fila
+[007] Cliente 16 chegou
+[007] Cliente 16 entrou na fila
+[008] Cliente 17 chegou
+[008] Cliente 17 entrou na fila
+[008] Cliente 18 chegou
+[008] Cliente 18 entrou na fila
+[008] Cliente 8 terminou atendimento
+[008] Atendente 2 iniciou atendimento do Cliente 12 (esperou 3 unidades)
+[009] Cliente 19 chegou
+[009] Cliente 19 entrou na fila
+[009] Cliente 20 chegou
+[009] Cliente 20 entrou na fila
+[009] Cliente 6 terminou atendimento
+[009] Atendente 3 iniciou atendimento do Cliente 10 (esperou 5 unidades)
+[010] Cliente 9 terminou atendimento
+[010] Cliente 12 terminou atendimento
+[010] Cliente 10 terminou atendimento
+[010] Atendente 1 iniciou atendimento do Cliente 14 (esperou 4 unidades)
+[010] Atendente 2 iniciou atendimento do Cliente 11 (esperou 5 unidades)
+[010] Atendente 3 iniciou atendimento do Cliente 17 (esperou 2 unidades)
+[011] Cliente 14 terminou atendimento
+[011] Atendente 1 iniciou atendimento do Cliente 13 (esperou 5 unidades)
+[013] Cliente 11 terminou atendimento
+[013] Atendente 2 iniciou atendimento do Cliente 19 (esperou 4 unidades)
+[015] Cliente 13 terminou atendimento
+[015] Cliente 17 terminou atendimento
+[015] Atendente 1 iniciou atendimento do Cliente 15 (esperou 8 unidades)
+[015] Atendente 3 iniciou atendimento do Cliente 16 (esperou 8 unidades)
+[016] Cliente 19 terminou atendimento
+[016] Atendente 2 iniciou atendimento do Cliente 18 (esperou 8 unidades)
+[017] Cliente 15 terminou atendimento
+[017] Atendente 1 iniciou atendimento do Cliente 20 (esperou 8 unidades)
+[018] Cliente 20 terminou atendimento
+[018] Cliente 18 terminou atendimento
+[018] Cliente 16 terminou atendimento
+
+--- RESULTADOS DA SIMULAÇÃO ---
+
+Tempo simulado: 18
+Clientes que chegaram: 20
+Clientes atendidos: 20
+Clientes aguardando: 0
+Clientes em atendimento: 0
+Espera média: 3.40
+Espera mínima: 0
+Espera máxima: 8
+Tempo médio no sistema: 6.05
+Tamanho médio da fila: 3.58
+Tamanho máximo da fila: 9
+
+Utilização dos atendentes:
+Atendente 1: 100.00%
+Atendente 2: 100.00%
+Atendente 3: 94.44%
+
+Vazão: 1.11 clientes/unidade de tempo
